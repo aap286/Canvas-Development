@@ -29,18 +29,18 @@ function App() {
   };
 
 
-  // maps
-  // const center = [44.8566, 2.3522];
-  const zoom = 13;
+
+  // <MapContainer center = {[44.8566, 2.3522]} zoom={{zoom}}>
+  //     <TileLayer
+  //       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  //       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+  //     />
+  //     </MapContainer>
+  // const zoom = 13;
   
   return (
     <div className="App">
-      <MapContainer center = {[44.8566, 2.3522]} zoom={{zoom}}>
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      </MapContainer>
+      
       <Canvas 
       width={diameter}
       height={diameter}
