@@ -36,10 +36,6 @@ const Canvas = ({width, height, delPath, setDelPath, updateDrawingPoints}) => {
 
     // draw points on border line when drawing goes outside
     function borderPoints(point){
-        // if(point.x < 0) point.x = 0;
-        // if(point.y < 0) point.y = 0;
-        // if(point.x > width) point.x = width;
-        // if(point.y > height) point.y = height;
         
         const radius = width / 2;
 
